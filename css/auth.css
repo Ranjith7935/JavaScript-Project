@@ -1,0 +1,114 @@
+/*  Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+/*  Layout */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #121212, #191919);
+  padding: 20px;
+  color: #fff;
+}
+
+/*  Main Card */
+.auth-container {
+  width: 100%;
+  max-width: 380px;
+  background: #222;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: #00eaff;
+}
+
+h3 {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+/*  Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  margin: 7px 0;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button:hover {
+  opacity: .75;
+}
+
+.google-btn {
+  background-color: #fff;
+  color: #000;
+}
+
+.github-btn {
+  background-color: #333;
+  color: #fff;
+}
+
+/*  Inputs */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #888;
+}
+
+/*  Text Links */
+a {
+  color: #00eaff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.auth-footer {
+  margin-top: 18px;
+  font-size: 14px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+/*  Divider */
+.divider {
+  margin: 12px 0;
+  color: #aaa;
+  font-size: 13px;
+}
+
+/*  Responsive */
+@media(max-width: 480px){
+  .auth-container {
+    max-width: 320px;
+  }
+}

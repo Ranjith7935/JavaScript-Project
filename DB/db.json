@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": "44d4",
+      "email": "ram@gmail.com",
+      "password": "ram",
+      "bookmarks": [],
+      "posts": []
+    },
+    {
+      "id": "9d0e",
+      "email": "rkranjithkumar009@gmail.com",
+      "password": "123",
+      "bookmarks": [],
+      "posts": []
+    }
+  ],
+  "posts": []
+}
